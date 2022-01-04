@@ -84,3 +84,7 @@ p{
     border-image: linear-gradient(rgba(100, 11, 11, 0.89), rgb(105, 50, 5));   
     border-image-slice: 1;                        
 }
+
+footer p{
+    text-align: center;
+}
