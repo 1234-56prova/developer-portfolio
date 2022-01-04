@@ -5,6 +5,11 @@ body {
 h1 {
     font-size: 50px;
 }
+
+h2{
+    font-size: 40px;
+}
+
 .Name {
     color: rgba(56, 7, 7, 0.712);
 }
@@ -14,7 +19,7 @@ p{
     margin-right: 20px;
 }
 
-section{
+.Flexible{
     display: flex;
     width: 100%;
     
@@ -48,4 +53,34 @@ section{
     background-image: url(images/Things.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.Experience-area{
+    background-image: url(images/Last.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.experience-item{
+    box-shadow: 10px 10px 10px 10px gray;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    margin-right: 5%;
+    
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgba(100, 11, 11, 0.89), rgb(105, 50, 5));
+    border-image-slice: 1;
+    
+}
+
+#baby-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgba(100, 11, 11, 0.89), rgb(105, 50, 5));   
+    border-image-slice: 1;                        
 }
