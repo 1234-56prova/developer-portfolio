@@ -11,6 +11,7 @@ h1 {
 
 p{
     text-align: justify;
+    margin-right: 20px;
 }
 
 section{
@@ -43,3 +44,8 @@ section{
     background-repeat: none;
 }
 
+.dream-bigs{
+    background-image: url(images/Things.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
